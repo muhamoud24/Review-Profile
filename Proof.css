@@ -1,0 +1,144 @@
+.reviews h2::before{
+    content: "★★★★★";
+    color: gold;
+    font-size: 24px;
+    gap: 20px;
+    padding-right:20px;
+}
+.stars h2{
+    background-color: lightgrey;
+}
+.container h1{
+    color:rgb(150, 34, 150);
+    font-size: 500%;
+    padding-right:50%;
+}
+.container p{
+    color:rgb(138, 133, 133);
+    font-size:2em;
+    padding-right:40%;
+
+}
+.testimonial1{
+    display: grid;
+    justify-content: space-around;
+    background-color: purple;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+.testimonial2{
+    display: grid;
+    justify-content: space-around;
+    background-color: purple;
+    padding-right: 30px;
+    border-radius: 20px;
+    
+}
+.testimonial3{
+    display: grid;
+    justify-content: space-around;
+    background-color: purple;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.testimonials{
+    display:flex;
+    justify-content: flex;
+    gap:20px;
+    padding-top:0px;
+   
+}
+.testimonials p1{
+    color:rgb(188, 8, 41);
+}
+.testimonials p2{
+    color:white;
+
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    position:relative;
+
+}
+.testimonials h3{
+    color:white;
+}
+.testimonials img{
+    border-radius:50%;
+    width:70px;
+    height:70px;
+    padding-left:5px;
+}
+.testimonials p2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right:20px;
+}
+.box1{
+    display:flex;
+    flex-direction:column;
+}
+.reviews{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    padding-left:40%;
+    justify-content: left;
+    padding-top:60px;
+    align-content:center;
+    padding-right: 50px;
+}
+#heading{
+    
+    margin-left:30px;
+
+}
+#headings{
+    
+    margin-left:50px;
+    
+}
+.reviews h2{
+    background-color: lightgrey;
+    background-position: inline-block;
+    display:inline-block;
+}
+.profile{
+    display:flex;
+    gap:10px;
+    position:relative;
+    padding-top:20px;
+    padding-left:13px;
+}
+.profile p1{
+    position:absolute;
+    padding-top:40px;
+    padding-left:85px;
+    margin-top:5px; 
+}
+.all{
+   margin: 140px; 
+
+}
+.content{
+background-color:rgb(249, 244, 244);
+padding: 80px;
+padding-bottom:80px;
+}
+.testimonial2{
+    
+    margin-top: 20px;
+     width:fit-content;
+     transform: translateY(20px);
+
+}
+.testimonial3{
+    margin-top: 40px;
+     width:fit-content;
+     transform: translateY(40px);
+}
